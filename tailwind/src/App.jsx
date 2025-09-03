@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Hero from './Components/Hero.jsx'
 function App() {
   return (
-    <div className='font-bold text-5xl text-center flex justify-center items-center h-screen'>
-      Modern Tailwind CSS
+    <div className=''>
+      <Hero />
     </div>
   )
 }
