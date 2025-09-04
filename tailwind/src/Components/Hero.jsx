@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container } from './Container'
 import Nav from './Nav'
+import HeroComponent from './HeroComponent'
 function Hero() {
   return (
     <div className='h-screen relative bg-blue-100'>
@@ -11,6 +12,7 @@ function Hero() {
       </div>
     <Container className="flex items-start justify-center">
       <Nav/>
+      <HeroComponent />
     </Container>
     </div>
   )
