@@ -4,5 +4,5 @@ export const Container = ({
     children,
     className,
 }) => {
-    return <div className={clsx("max-w-6xl mx-auto px-4 md:py-0", className)}>{children}</div>
+    return <div className={clsx("max-w-6xl mx-auto px-4 md:py-0 flex-col items-center justify-center", className)}>{children}</div>
 }
